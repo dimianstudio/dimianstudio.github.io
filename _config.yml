@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+exclude:
+  - vendor/
+
+# Setup
+title:               Dmytro Myrhoroskyi
+tagline:             Software developer from Ukraine
+description:         'I am a full-stack developer from Ukraine. I like travelling. I am raising a child.'
+url:                 http://dimianstudio.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Dmytro Myrhoroskyi
+  url:               https://twitter.com/dimianstudio
+  email:             dimianstudio@gmail.com
+
+
+gems:
+  - jekyll-paginate
